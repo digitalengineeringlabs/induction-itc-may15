@@ -2,7 +2,9 @@
 
 Develop a web page with below detail
 
-## My Resume (headings - 1)
+***
+
+My Resume (headings - 1)
 
 Name (headings - 2)
 mobile | email (small fonts)
@@ -15,13 +17,14 @@ Hobbies (headings - 3)
 *
 *
 
-
 Grades (headings - 3)
 
 Exam | Score
 SSLC | 87%
 HSC  | 91%
 Bachelors | 78%
+
+***
 
 # Module 3
 using output of above exercise, apply below changes
