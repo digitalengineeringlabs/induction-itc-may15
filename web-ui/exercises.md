@@ -19,10 +19,10 @@ Hobbies (headings - 3)
 
 Grades (headings - 3)
 
-Exam | Score
-SSLC | 87%
-HSC  | 91%
-Bachelors | 78%
+Exam | Score   
+SSLC | 87%   
+HSC  | 91%   
+Bachelors | 78%   
 
 ***
 
