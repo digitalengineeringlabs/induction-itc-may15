@@ -1,0 +1,31 @@
+/* element name selector */
+label {
+    background-color: #ccc;
+    font-family: fantasy;
+}
+
+/* id selector */
+#john-hobby-photo {
+    font-family: 'Courier New', Courier, monospace;
+}
+/* class selector */
+.hobby {
+    color: blue;
+}
+/* descendant selector */
+#user-johnsmith .sport {
+    color: green;
+}
+/* Child selector */
+div > label {
+    color:red;
+}
+/* Pseudo Selectors */
+a:visited {
+color: darkorange;
+}
+
+/* attribute selector */
+input[name='emailaddress'] {
+   background-color: aqua;
+}

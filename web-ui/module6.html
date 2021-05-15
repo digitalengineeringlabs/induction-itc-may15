@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Module 6 - Forms</title>
+    </head>
+    <body>
+        <form action="login.php" method="POST" onsubmit="javascript:confirm('Form is being submitted');return false;"> <!-- div -->
+            <input type="text" name="userid" placeholder="User ID" onblur="javascript:alert('leaving')"><br>
+            <input type="password" name="password"><br>
+            <input type="date" name="date"><br>
+            <input type="email" name="email"><br>
+            <input type="file" name="upload"><br>
+            <!-- checkbox-->
+            <input type="checkbox" name="terms" value="Y">Agree to terms<br>
+            <!-- radio button-->
+            <input type="radio" name="gender" value="F">Female<br>
+            <input type="radio" name="gender" value="M">Male<br>
+
+            <textarea rows="4" cols="50" name="comments"></textarea>
+            <!-- drop down or combobox-->
+            <select name="fruit" multiple>
+                <option value="">Select</option>
+                <option value="A">Apple</option>
+                <option value="B">Banana</option>
+                <option value="C">Citrus</option>
+            </select>
+
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+    </body>
+</html>
