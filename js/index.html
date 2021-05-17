@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id='content'>
+        Hello Peter
+    </div>
+    <button onclick="change()">Change</button>
+
+    <input type="text" onblur="read(this)"></input>
+    
+    <script>
+        function change() {
+            var elem = document.getElementById('content');
+            //elem.innerHTML = '<input type=\'text\'>'
+            elem.style.color = 'red'
+        }
+        function read(elem) {
+            console.log(elem.value);
+        }
+    </script>
+</body>
+</html>

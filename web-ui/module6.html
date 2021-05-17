@@ -5,7 +5,7 @@
         <title>Module 6 - Forms</title>
     </head>
     <body>
-        <form action="login.php" method="POST" onsubmit="javascript:confirm('Form is being submitted');return false;"> <!-- div -->
+        <form action="login.php" method="POST" onsubmit="javascript:launch();"> <!-- div -->
             <input type="text" name="userid" placeholder="User ID" onblur="javascript:alert('leaving')"><br>
             <input type="password" name="password"><br>
             <input type="date" name="date"><br>
@@ -28,5 +28,6 @@
 
             <button type="submit" value="Submit">Submit</button>
         </form>
+        
     </body>
 </html>
